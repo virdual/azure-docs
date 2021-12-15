@@ -110,6 +110,8 @@ You cannot directly provide the password of the Azure AD service account to the 
  
    If the cmdlet is successful, the PowerShell command prompt appears. 
    
+(Note that you must use an Azure AD Global admin account with an onmicrosoft domain on step 2 when prompted for credentials. Modern authentication is also not supported.)
+   
 The cmdlet resets the password for the service account and updates it both in Azure AD and the sync engine.
 
 
